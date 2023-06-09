@@ -1,0 +1,85 @@
+.add-buttons {
+    margin: 10px;
+    padding: 0;
+}
+
+.add-title {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-image {
+    width: 58px;
+    height: 80px;
+}
+
+.add-section {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.goodies {
+    width: 650px;
+    margin: 30px 0 0 30px;
+}
+
+.basket {
+    margin-left: 30px;
+}
+
+.none {
+    min-width:100px;
+    display: inline-block;
+}
+
+.noneContainer {
+    margin-left: 60px;
+}
+
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+header {
+    background-color: darkgray;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 90px;
+}
+
+nav {
+    background-color: honeydew;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: black 2px solid;
+}
+
+a {
+    font-size: 20px;
+    color: darkblue;
+}
+a:hover {
+    color: black;
+}
+
+
+.content-border {
+    border: black 3px solid;
+    padding: 10px;
+}
+
+.font-change {
+    font-family: cursive;
+    text-align: start;
+}

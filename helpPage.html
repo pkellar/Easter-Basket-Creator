@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easter Basket - Check List</title>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+</head>
+<body>
+
+    <!--The header of the help page-->
+    <header>
+        <h1>Help Page</h1>
+
+        <!--The nave section with the links to the other pages-->
+        <nav>
+            <a href="index.php">Home Page</a> |
+            <a href="helpPage.html">Help Page</a> |
+            <a href="File_Manager/fileManagement.php">File Management Page</a>
+        </nav>
+    </header>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <div>
+        <!--The links to the different sections on this page-->
+        <h1 class="font-change">Page Links</h1>
+        <a href="#description">Description</a><br>
+        <a href="#checkList">Check List</a><br>
+        <a href="#cssRules">CSS Modifications</a><br>
+        <a href="#usesLimits">Program Usage and Limitations</a>
+    </div>
+
+    <!--Set container with border around the page content-->
+    <div class="content-border">
+        <hr>    <!--Description section header-->
+        <h1 class="font-change" id="description">Description</h1>
+        <hr>
+        <div>
+            Student Name: Patrick Kellar <br><br>
+        </div>
+        <div>
+            Course: CSC-468-MO1 <br><br>
+        </div>
+        <div>
+            Project Description: Easter Basket Order Form<br><br>
+        </div>
+
+        <p>
+        <p>
+            <hr><!--Check List section header-->
+            <h1 class="font-change" id="checkList">Check List</h1>
+            <hr>
+
+            _X_ *Grading tags completed<br><br>
+
+            Undo/redo pattern (tier-less)*	30<br>
+            _X_ a. Undo/redo OOP followed<br>
+            _X_ b. Able to do at least 1 undo/redo for change<br>
+            _X_ c. Able to do at least 1 undo/redo for 1 preconfigured change<br>
+            _X_ d. Able to do at least 5 undo/redo for change<br>
+            _X_ f. Able to do at least 5 undo/redo for 1 preconfigured change<br>
+
+
+            1.	Tier: Basic content	36<br>
+            _X_ a. All 3 pages present<br>
+            _X_ b. Header in all pages in correct spot<br>
+            _X_ c. Nav bar in all pages in correct spot<br>
+            _X_ d. All interaction buttons added to main page in correct spot<br>
+            _X_ e. Properly display the default content in main page in correct spot<br>
+            _X_ f. At minimum, a place holder for file upload/load/download in file page in correct spot<br>
+            _X_ h. All headings added to Help page in correct order<br>
+            _X_ i. Help page content filled in<br>
+            _X_ j. Within page link help page working<br>
+
+            2a. Basic application tasks	30<br>
+            _X_ a. Able to change/confirm goody<br>
+            _X_ b. Able to change basket only<br>
+            _X_ c. New row still work<br>
+            _X_ d. Able to delete goodies properly<br>
+
+
+            2b. CSS rules*	18<br>
+            _X_ a. Background color/image<br>
+            _X_ b. CSS header<br>
+            _X_ c. CSS nav bar color/image<br>
+            __ d. CSS "[a]" rule<br>
+            _X_ f. Content border<br>
+            _X_ g. Help heading font change<br>
+
+
+            3a More advanced main page options *	16<br>
+            _X_ a. Able to change to preconfigured options<br>
+            _X_ b. Main content area unaffected by save, and stays on page<br>
+
+            3b Tier: Files	40<br>
+            _X_ a. Able to save the current content (must show in file page)<br>
+            _X_ b. Able to download at least one file (default is ok)<br>
+            _X_ c. Able to download an application generated file<br>
+            _X_ d. Able to upload a file<br>
+            _X_ e. Loading a file redirects back to the main page<br>
+            _X_ f. Loading properly displays with app generated file<br>
+            _X_ g. Able to save, download, upload, and load that same file<br>
+
+            4 Tier: Extensions	30<br><br>
+            Extension 1: [2h] [10 pts] [Add another undo/redo functionality]: The deleting the last goody can be undone and redone on
+            home page. This can be tested by adding a goody at any point and then undoing the action by clicking the "undo button.
+            This could then be redone by clicking the "redo" button. The undo will bring it back the state before the deletion, and
+            the redo will perform the deletion again.<br><br>
+
+            Extension 2: [1a] [5 pts] [Style using a CSS feature not discussed in class]: Styling used that was not discussed can be seen in
+            styling on the header and nav. In the header, I use display flex with a flex-wrap. This allowed me to then use
+            "align-content: center" so that the page title is centered on the top of each page. In addition to this, I utilize
+            "display:flex" again in the nav styling which allowed me to then use the "justify-content: space-evenly". This separated each
+            of the page links equally across the nav section.<br><br>
+
+            Extension 3: [2j] [10 pts] [Add fancier selection for goodies and/or baskets]: Goody and basket selection is
+            fancier by having the images of the goodies and baskets being selectable. This allows the user to see what the
+            options look like before they are added to the basket.<br><br>
+
+            Extension 4: [3a] [5 pts] [Make 3+ more goodies and/or baskets available]: For this, I added 3 more possible egg
+            selections. The picture sizes are a little wonky. Otherwise, they function the same as the blue and striped eggs.<br><br>
+
+        <hr> <!--CSS modification section header-->
+        <h1 class="font-change" id="cssRules">CSS Modifications</h1>
+        <hr>
+
+        <div> <!--List of CSS modifications made and information about each-->
+            My CSS rules are located in www/CSS/index.css<br>
+            My rules are listed bellow with a description next to those that are required for this project.<br>
+            <br>
+
+            This is used on the home page to format the buttons used for adding a goody or changing the basket<br>
+            .add-buttons {<br>
+            margin: 10px;<br>
+            padding: 0;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to be a title above the button selection for adding a goody or changing the basket<br>
+            .add-title {<br>
+            font-size: 20px;<br>
+            display: flex;<br>
+            justify-content: center;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to make the starting images smaller for the button selection options<br>
+            .add-image {<br>
+            width: 58px;<br>
+            height: 80px;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to be containers for the buttons that add goodies to the basket and allow basket changes <br>
+            .add-section {<br>
+            display: inline-block;<br>
+            margin-right: 30px;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to be a container for the goodies added to the basket<br>
+            .goodies {<br>
+            width: 650px;<br>
+            margin: 30px 0 0 30px;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to move the basket image off the left side of the page<br>
+            .basket {<br>
+            margin-left: 30px;<br>
+            }<br>
+            <br>
+
+            This is used on the home page to evenly space the "none" options at the application load<br>
+            .none {<br>
+            min-width:100px;<br>
+            display: inline-block;<br>
+            }<br>
+            <br>
+
+            This is used to not have the "nones" at the project open to be on left screen edge.<br>
+            .noneContainer {<br>
+            margin-left: 60px;<br>
+            }<br>
+            <br>
+
+            This is changing all the pages colors to something other than white as required by formatting requirement #1<br>
+            body {<br>
+            background-color: beige;<br>
+            margin: 0;<br>
+            }<br>
+            <br>
+
+            This is the custom header on all pages as required by formatting requirement #2<br>
+            header {<br>
+            background-color: darkgray;<br>
+            padding-bottom: 10px;<br>
+            display: flex;<br>
+            flex-direction: column;<br>
+            align-content: center;<br>
+            flex-wrap: wrap;<br>
+            margin: -10px;<br>
+            }<br>
+            <br>
+
+            This is styling to the h1 tag so that they are in the middle of the page<br>
+            h1 {<br>
+            text-align: center;<br>
+            margin-right: 90px;<br>
+            }<br>
+            <br>
+
+            This is the navigation styling that include the background color as required by formatting requirement #3<br>
+            nav {<br>
+            background-color: honeydew;<br>
+            width: 100%;<br>
+            display: flex;<br>
+            justify-content: space-evenly;<br>
+            border: black 2px solid;<br>
+            }<br>
+            <br>
+
+            <br>
+            a {<br>
+            font-size: 18px;<br>
+            }<br>
+            <br>
+
+            This is the custom link as required by formatting requirement #4. It will turn the text black of the link being hovered<br>
+            over in the nav section.<br>
+            a {<br>
+            font-size: 20px;<br>
+            color: darkblue;<br>
+            }<br>
+            a:hover {<br>
+            color: black;<br>
+            }<br>
+            <br>
+
+            This is the styling class that is applied to all pages that puts a border around the application content as
+            required by formatting requirement #5<br>
+            .content-border {<br>
+            border: black 3px solid;<br>
+            padding: 10px;<br>
+            }<br>
+            <br>
+
+            This is the styling class applied to the Help Page headers that provides a font style change as required by
+            formatting option #6. It will also align them to the left side of the page<br>
+            .font-change {<br>
+            font-family: cursive;<br>
+            text-align: start;<br>
+            }<br>
+        </div>
+
+        <hr><!--Program usage section header-->
+        <h1 class="font-change" id="usesLimits">Program Usage and Limitations</h1>
+        <hr>
+        <p>
+            Home Page:<br><br>
+            The home page of this application is used to create a goody basket, and this can be done in a variety of ways.
+            It can first be done by making a custom basket using the buttons with "Eggs", "Bunny", and "Baskets" above them (showing the respective images).
+            When one of these buttons is clicked, it will add the goody to the basket bellow with "Current Basket" titled above it.
+            Once a goody is added, it will need to be confirmed using the button that says "confirm". While there is an
+            unconfirmed goody, the goody selection buttons will disappear until the most recent goody is confirmed. After a goody is confirmed,
+            it will add a white egg as a placeholder for another goody, and another goody could then be added.<br><br>
+
+            Another way to make an easter basket is by using one of the preconfigured options that are listed to the right of the custom basket changing options.
+            After one of these options is selected, further goodies can be added using the goody and basket options.<br><br>
+
+            Through any of the custom goodies added or preconfigured options discussed so far, the "undo" button can be clicked to take the basket back a state.
+            There is no limit on how many times the user wants to undo. Conversely, by clicking the "redo" button, all the changes can be redone back to the
+            state that the user desires.<br><br>
+
+            The most recent goody can also be deleted from the basket by clicking the "Delete Last Goody" button. If a goody is confirmed,
+            (there is a white egg after it), it will remove the white egg and the confirmed goody. If the goody is unconfirmed,
+            it will remove the goody and replace it with a white egg since the goody before it is still confirmed. NOTE: I implemented
+            delete into the undo/redo, so any delete can be undone and redone.<br><br>
+
+            Once a basket is configured as desired, it can be saved as a txt file to the "uploads" folder by clicking the button that says "save" on the home page.
+            This will save the html of the goodies and the basket to the file. It will then send back the name of the file saved (test.txt) back to the home page for
+            it to reload the content and thus preserve it as it was before the save. However, the undo and redo states are not preserved through this.
+            It is also important to note that "unconfirmed" goodies will not be preserved across this save. I do not consider this to be not
+            preserving the state of the page since it's a requirement to not save "unconfirmed" goodies. ALso, this allows the user to
+            see what was actually saved.<br><br>
+
+            It is also important to note that the "reset" button next to the save button can be used to clear the file that has
+            been loaded. This button is really only needed when the "loadFile" parameter is set in the URL since it wont be cleared
+            when the page is refreshed. If the "loadFile" parameter isn't set in the URL, the normal refresh will clear the page, but the
+            "reset" button will work as well.<br><br>
+
+            <br>
+            File Management Page:<br><br>
+            This page will allow you to upload, download, and load a file. To upload a file, click the "Choose File" and choose a txt file with the proper html.
+            This should only be two lines. One line that has the goodies html and another that has the basket html.Once a file is chosen,
+            click the "upload" button to add it to the "uploads" directory.<br><br>
+
+            Bellow the upload section is the current file section that will list all the txt files in the "uploads" directory.
+            Next to each file listed is a "load" and "download" button. If the download is selected, it will download the file to the
+            users downloads directory. If load is selected, it will redirect back to the home page and load in the save goodies and basket.<br><br>
+
+            This load does not preserve the undo redo from when it was saved, but further goodies and basket changes can be made and those can then be
+            undone and redone.<br><br>
+
+
+        </p>
+    </div>
+</body>
+</html>
