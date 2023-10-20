@@ -4,6 +4,8 @@ This is a web application that uses CSS, JavaScript, and PHP to let you create a
 I utilized UwAmp to run this application, but it can also be run by opening up index.php in your browser.
 
 The coloring and styling of this page was not chosen by me. I just followed the requirements set for the project.
+![image](https://github.com/pkellar/Easter-Basket-Creator/assets/106937373/eb5c2436-5302-450f-90a3-14e198c51120)
+
 
 Program Usage and Limitations
 Home Page:
